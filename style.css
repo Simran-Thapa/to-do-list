@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(29, 169, 201);
+    justify-content: center;
+    min-height: 100hv;
+    display: flex;
+    padding-top: 100px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;  
+}
+.container{
+    background-color:white;
+    width: 30%;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+#add-button{
+    color:white;
+    width: 80px;
+    background-color: green;
+    border-radius: 2px;
+    
+
+}
+
+ 
+.todo-list .delete-btn {
+    margin-left: 10px;
+    color:white;
+    border: none;
+    background: darkred;
+    cursor: pointer;
+  }
+
+/* for reponsive  */
+ @media screen and (max-width: 600px) {
+    .page {
+      width: 80%;
+    }
+}
